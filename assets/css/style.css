@@ -1,0 +1,19 @@
+/*now we want to apply css that affects only fruits we use.fruits{}*/
+.fruits{
+    /*in border there are three parameters u need to put*/
+    border: lightgreen solid 2px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #e51b1b;
+    text-align: center;
+    color: white;
+}
+.cars{
+    border: lightgreen solid 2px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #e51b1b;
+    text-align: center;
+    color: white;
+
+}

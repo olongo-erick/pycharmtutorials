@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+         ul{
+             list-style-type: none;
+             /*now the bullets are no more*/
+             /*now lets put the background color of saf which is green*/
+             background-color: #518851;
+             overflow: hidden;
+             /*now we want the list to be horizontal not vertical
+             so we need to use
+             float but now we employ this CSS in the li tag*!*/
+
+             /*to make the word personal start at the start end */
+             /*of the page we need to say margin 0 and padding 0*/
+             margin: 0;
+             padding: 0;
+         }
+         li{
+             float: left;
+             /*but the green color background is now
+             lost so we need to say overflow hidden in th ul tag
+             above and the color returns*/
+         }
+         /*to make the text be white we need to open*/
+         /*another li as follows*/
+         li,a{
+             color: white;
+             /*to make the words spacious from the top,bottom and
+              the other words we use padding*/
+             padding: 15px;
+             /*we dont want underlined words so we want to
+             remove the line by saying text decoration none*/
+             text-decoration: none;
+             /*we want to reduce the font size */
+             font-size: 15px;
+         }
+         /*we want to hover from one topic to another but the color of hovering we want it to be black*/
+         li a:hover{
+             background-color: black;
+         }
+
+    </style>
+<!--     now we want to put the safaricom logo as our icon using link favicon -->
+    <link rel="shortcut icon" href="images/saf logo.png" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NavbarSaf</title>
+</head>
+<body>
+<ul>
+<!--    # means no link-->
+    <li><a href="#">PERSONAL</a></li>
+    <li><a href="">BUSINESS</a></li>
+    <li><a href="#">ABOUT US</a></li>
+    <li><a href=""></a>FRAUD AWARENESS</li>
+    <li><a href="">INVESTOR RELATIONS</a></li>
+    <li><a href="">MEDIA</a></li>
+    <li><a href="">CAREERS</a></li>
+</ul>
+<!--now we want to remove the bullets which we now-->
+<!--have to use CSS of the unordered list in the head tag-->
+
+</body>
+</html>

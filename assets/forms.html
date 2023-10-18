@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+<h2>Registration page</h2>
+<form>
+    <label for="fname">First Name</label>
+    <input type="text" name="jina1" id="fname" placeholder="your first name" required><br>
+<!--    to make sure one does not submit until a certain field is answered we use the word required-->
+    <label for="lname">Last Name</label>
+    <input type="text" name="jina2" id="lname" placeholder="your second name" required><br>
+    <label for="email">Email</label>
+    <input type="email" name="barua" id="email" placeholder="your email address" required><br>
+    <label for="DOB">Date of Birth</label>
+    <input type="date" name="Kuzaliwa" id="DOB"><br>
+    <label for="male">Male</label>
+    <input type="radio"  id="male" name="gender"><br>
+<!--    we have used name to make one able to choose only one field, but if you want
+         multiple selections dont put name-->
+    <label for="female">Female</label>
+    <input type="radio"  id="female" name="gender"><br>
+    <label for="image">Upload Image</label>
+    <input type="file" name="picha" id="image"><br>
+    <label for="courses">Our courses</label>
+    <select name="courses" id="courses">
+        <option value="js">Java Script</option>
+        <option value="cs">Cyber Security</option>
+        <option value="py">Python</option>
+    </select><br>
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>

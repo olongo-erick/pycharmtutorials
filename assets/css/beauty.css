@@ -1,0 +1,35 @@
+/*we want to put css on the table tag ONLY so we say table{}*/
+table{
+    width: 100%;
+    /*to remove spaces between the borders */
+    border-collapse: collapse;
+}
+/*now we want to put borders o the table headings and table details
+by saying th,td{}*/
+/*The CSS border properties allow you to specify the style, width, and color of an element's
+border.you can have borders on all sides, red bottom border, rounded borders, blue left border.*/
+/*The border-style property specifies what kind of border to display.
+dotted defines a dotted border, dashed  defines a dashed border, solid defines a solid border
+and none defines no border*/
+th,td{
+    /*in border there are three parameters u need to put */
+    border: 2px solid chocolate;
+    padding: 20px;
+    margin: 10px;
+    /*we dont want the borders to appear separated so we use the border-collapse in the table tag uko juu*/
+}
+/*now we want the table headers to have unique color,font size and font family*/
+thead{
+    font-family: "Fugaz One";
+    font-size: 13px;
+    color: black;
+}
+/*now we want to put a background color in our body*/
+body{
+    background-color: lightgreen;
+}
+/*now we want the h2 list of student to be at the center so we say*/
+h2{
+    text-align: center;
+    font-size: 40px;
+}
